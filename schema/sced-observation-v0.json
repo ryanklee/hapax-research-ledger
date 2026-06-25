@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://github.com/ryanklee/hapax-research-ledger/schema/sced-observation-v0.json",
+  "$id": "https://github.com/hapax-systems/hapax-research-ledger/schema/sced-observation-v0.json",
   "title": "SCED Observation (v0)",
   "description": "A single changing-criterion single-case experimental design observation from the Hapax research program. Numeric/enum/controlled-vocabulary only; carries no free-text or personal data.",
   "type": "object",
@@ -66,7 +66,7 @@
     },
     "caveats": {
       "type": "array",
-      "items": {"type": "string", "pattern": "^[a-z0-9_]+$"}
+      "items": {"type": "string", "pattern": "^[A-Za-z0-9_]+$"}
     },
     "provenance": {
       "type": "object",
